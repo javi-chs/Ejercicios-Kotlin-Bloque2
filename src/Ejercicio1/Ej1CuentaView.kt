@@ -1,5 +1,4 @@
-package Views
-import Controller.CuentaController
+package Ejercicio1
 
 class Ej1CuentaView {
 

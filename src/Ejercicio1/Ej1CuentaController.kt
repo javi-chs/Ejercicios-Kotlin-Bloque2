@@ -1,8 +1,7 @@
-package Controller
-import Model.Cuenta
-import Views.Ej1CuentaView
+package Ejercicio1
+
 class CuentaController {
-    var cuenta:Cuenta  = Cuenta(0);
+    var cuenta: Cuenta = Cuenta(0);
     var vista = Ej1CuentaView()
 
     fun getBalance():Int{return cuenta.saldo;}
