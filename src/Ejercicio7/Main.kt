@@ -13,6 +13,7 @@ fun main(){
         Television(1300.0,"",'R',4.0,44,true),
         Lavadora(1800.0,"",'A',56.0,7.0));
 
+
         for (i in lista){
         i.precioFinal();
     }
@@ -29,6 +30,7 @@ var contador=1;
         if(i is Lavadora){
             println("Lavadora $contador tiene un precio final de " + i.getPrecioBase())
             contador++;
+
         }
     }
 

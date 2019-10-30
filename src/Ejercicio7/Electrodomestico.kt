@@ -68,13 +68,16 @@ open class Electrodomestico (){
      constructor(precioBase: Double, peso: Double):this(){
         this.precioBase = precioBase;
         this.peso = peso;
+         comprobarConsumoEnergetico(consumo);
+         comprobarColor(color);
     }
     constructor(precioBase: Double,color:String,consumo:Char,peso:Double):this(){
         this.precioBase=precioBase;
         this.color = color;
         this.consumo = consumo;
         this.peso = peso;
-
+        comprobarConsumoEnergetico(consumo);
+        comprobarColor(color);
     }
     ///GETERS/////
     fun getPrecioBase():Double{

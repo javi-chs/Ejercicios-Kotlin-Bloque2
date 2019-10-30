@@ -12,7 +12,7 @@ fun getCarga():Double{
     return this.carga;
 }
      override fun precioFinal(){
-        //super.precioFinal()
+        super.precioFinal()
          if(this.carga>30){super.setPrecioBase(super.getPrecioBase()+50)}
 
     }

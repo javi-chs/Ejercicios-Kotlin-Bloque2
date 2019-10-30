@@ -19,7 +19,7 @@ class Television:Electrodomestico{
     fun getResolucion():Int{return this.resolucion}
     fun getTDT():Boolean{return this.TDT}
     override fun precioFinal() {
-       // super.precioFinal()
+        super.precioFinal()
         if(this.resolucion>40){super.setPrecioBase(super.getPrecioBase()*130/100)}
         if(this.TDT){
             super.setPrecioBase(super.getPrecioBase()+50)
